@@ -1,0 +1,18 @@
+[
+	{
+		"id": "1",
+		"date": "Sun Oct 20 2019 16:40:33 GMT+0530 (India Standard Time)",
+		"title": "To be done",
+		"text": "PHP API for login, content<br>Pictures<br>Youtube Videos<br>Connect dragboxes<br>Zoom in and out of canvas",
+		"xCoordinate": 500,
+		"yCoordinate": 300
+	},
+	{
+		"id": "2",
+		"date": "Sun Oct 20 2019 16:51:23 GMT+0530 (India Standard Time)",
+		"title": "Getting started with the UI/UX",
+		"text": "I thought I would take a different route this time. Rather than starting from the backend, I think I will start from the frontend. I think I shall make the entire UI as I like and later create a backend which would supply data into the JSON file from which this post is currently being read by the UI. An alternate approach would be to create an API that returns JSON content. I might change my mind any time... lol. I am also considering this version of BuddyGo an open source one.",
+		"xCoordinate": 380,
+		"yCoordinate": 25
+	}
+]

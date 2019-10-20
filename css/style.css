@@ -1,0 +1,115 @@
+body{
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:16px;
+	margin:0.25em;
+	line-height: 1.15em;
+	overflow: hidden;
+	background: #dedede;
+}
+h1{
+	font-size:1.6em;
+	display:inline-block;
+	margin:0.25em;
+}
+h2{
+	font-size:1.4em;
+	color:#555;
+	margin:0.25em;
+}
+h3{
+	font-size:1.3em;
+	margin:0.75em 0.25em 0.25em 0.25em;
+	width:100%;
+	border-bottom:0.1em #999 solid;
+	padding:0.25em;
+}
+h4{
+	font-weight:bold;
+	margin:0.5em 0.25em 0.25em 1em;
+}
+h5{
+	font-weight:bold;
+	color:#333;
+	margin:0.25em 0.25em 0.25em 2em;
+}
+p{
+	font-size:1em;	
+	margin:0.25em 0.25em 0.25em 3em;
+	text-align:justify;
+}
+ul{
+	list-style-type: circle;
+	margin: 0 0 0 3em;
+}
+.date{
+	float:right;
+	font-weight:bold;
+	color:#333;
+	margin-right: 0.5em;
+}
+b{
+	font-weight: bold;
+}
+
+#logo{
+	position: absolute;
+	right: 2em;
+	bottom: 2em;
+}
+
+#sidebar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 20em;
+	background: #ddd;
+	padding: 1em;
+	text-align: center;
+}
+#sidebar input[type=text]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#sidebar input[type=password]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#sidebar input[type=submit] {
+	width: 100%;
+	background-color: #111;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#sidebar input[type=submit]:hover {
+	background-color: #999;
+}
+#sidebar p{
+	margin: 16px 0 0 0;
+}
+#sidebar li{
+	text-align: left;
+}
+
+#canvas {
+	background: #fefefe;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400%;
+	height: 400%;
+}
