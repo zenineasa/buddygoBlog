@@ -1,0 +1,103 @@
+{
+	"pageSettings": {
+		"backgroundColor": "#fefefe",
+		"scrollX": true,
+		"scrollY": true
+	},
+	"sidebar": {
+		"title": "The Go blog",
+		"subTitle": "Rebuilding BuddyGo",
+		"content": "<p>This is an attempt to relaunch one of my old projects. I am hosting a static blog page as a concept so that my buddies can see. In this page, you can see a brief history of BuddyGo. The information provided here are taken from my memory and the sources that I could look into.",
+		"hidable": false
+	},
+	"canvas": [
+		{
+			"id": "TheFirst",
+			"title": "Initial Creation (2009)",
+			"text": "The first BuddyGo was hosted with a '.tk' domain since it was free. I can not remember the exact date, but I think it was in November, 2009.",
+			"xCoordinate": 400,
+			"yCoordinate": 30,
+			"width": 300,
+			"height": 140,
+			"connectionsFrom": [],
+			"connectionsTo": ["OriginalLogo"]
+		},
+		{
+			"id": "OriginalLogo",
+			"title": "The OriginalLogo (2009)",
+			"text": "Created by Rumen Aleksiev:<br> <img src='/content/images/originalLogo.jpg'/><br> The new logo that is currently in use was created by Ganesh Anand.",
+			"xCoordinate": 800,
+			"yCoordinate": 25,
+			"width": 220,
+			"height": 220,
+			"connectionsFrom": ["TheFirst"],
+			"connectionsTo": ["netProcurement"]
+		},
+		{
+			"id": "netProcurement",
+			"title": "Domain procurement - BuddyGo.net (2011)",
+			"text": "Just a week after the New year celebration, I managed to procure this domain. I do not recollect if my mother paid for it or I made the money by freelancing; the former is more likely.",
+			"xCoordinate": 1100,
+			"yCoordinate": 35,
+			"width": 300,
+			"height": 160,
+			"connectionsFrom": ["OriginalLogo"],
+			"connectionsTo": ["IntroVideo"]
+		},
+		{
+			"id": "IntroVideo",
+			"title": "Introduction video (2011)",
+			"text": "An old Introduction Video created by Chris Gilbert: <br><iframe width='300' height='225' src='https://www.youtube.com/embed/TJFQLMirIV8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"xCoordinate": 400,
+			"yCoordinate": 300,
+			"width": 320,
+			"height": 320,
+			"connectionsFrom": ["netProcurement"],
+			"connectionsTo": ["AdventureBuddy"]
+		},
+		{
+			"id": "AdventureBuddy",
+			"title": "Adventure Buddy - Gaming League (2011)",
+			"text": "<iframe width='300' height='225' src='https://www.youtube.com/embed/-ibQgge3qCw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"xCoordinate": 950,
+			"yCoordinate": 300,
+			"width": 320,
+			"height": 320,
+			"connectionsFrom": ["IntroVideo"],
+			"connectionsTo": ["KitchenPromo"]
+		},
+		{
+			"id": "KitchenPromo",
+			"title": "Kitchen Promo (2012)",
+			"text": "Disclaimer: The world did not end that year.<br><iframe width='560' height='315' src='https://www.youtube.com/embed/rzu7ehrct-k' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"xCoordinate": 380,
+			"yCoordinate": 700,
+			"width": 600,
+			"height": 400,
+			"connectionsFrom": ["AdventureBuddy"],
+			"connectionsTo": ["ChaosAtCorneo"]
+		},
+		{
+			"id": "ChaosAtCorneo",
+			"title": "Chaos at Corneo (2013)",
+			"text": "<iframe width='560' height='315' src='https://www.youtube.com/embed/lF6abNpx3Lk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"xCoordinate": 720,
+			"yCoordinate": 1300,
+			"width": 600,
+			"height": 400,
+			"connectionsFrom": ["KitchenPromo"],
+			"connectionsTo": ["potentialRelaunch"]
+		},
+		{
+			"id": "potentialRelaunch",
+			"title": "The potential relaunch (2019-20)",
+			"text": "Thinking about a relaunch. Since foldable phones are entering the market, I find that there would be huge potential for applications that can handle larger screen size. We are getting back into the good old web development, where we no longer would have to create a version for small phones.<br><br>The Go Blog intends to spice things up. Customize the blog, not just as per the author's liking, but also by the viewers liking.",
+			"xCoordinate": 550,
+			"yCoordinate": 1850,
+			"width": 600,
+			"height": 200,
+			"connectionsFrom": ["ChaosAtCorneo"],
+			"connectionsTo": []
+		}
+	]
+}

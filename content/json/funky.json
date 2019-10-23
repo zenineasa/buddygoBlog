@@ -1,0 +1,57 @@
+{
+	"pageSettings": {
+		"backgroundImage": "content/48372839_2422689341093660_7823871378838257664_o.jpg",
+		"backgroundColor": "#aaaaaa",
+		"backgroundSize": "cover",
+		"scrollX": true,
+		"scrollY": true
+	},
+	"sidebar": {
+		"title": "The Go blog",
+		"subTitle": "Rebuilding BuddyGo",
+		"content": "<p>This is an attempt to relaunch one of my old projects. I am hosting a static blog page as a concept so that my buddies can see. Some useful tips:</p><ul><li>Drag individual blog posts using the titlebar.</li><li>Using middle mouse button, drag the background canvas to go to other blog posts that are not visible in this page.</li></ul>",
+		"hidable": true
+	},
+	"canvas": [
+		{
+			"id": "one",
+			"date": "Sun Oct 20 2019 16:40:33 GMT+0530 (India Standard Time)",
+			"title": "To be done",
+			"text": "PHP API for login, content<br>Pictures<br>Youtube Videos<br>Connect dragboxes<br>Zoom in and out of canvas",
+			"xCoordinate": 400,
+			"yCoordinate": 30,
+			"width": 400,
+			"height": 200,
+			"connectionsFrom": [],
+			"connectionsTo": ["2", "3"],
+			"titleColor": "#ff0000",
+			"titleTextColor": "#000000",
+			"boxColor": "#00ff00",
+			"boxTextColor": "#ffffff"
+		},
+		{
+			"id": "2",
+			"date": "Sun Oct 20 2019 16:51:23 GMT+0530 (India Standard Time)",
+			"title": "zGetting started with the UI/UX",
+			"text": "I thought I would take a different route this time. Rather than starting from the backend, I think I will start from the frontend. I think I shall make the entire UI as I like and later create a backend which would supply data into the JSON file from which this post is currently being read by the UI. An alternate approach would be to create an API that returns JSON content. I might change my mind any time... lol. I am also considering this version of BuddyGo an open source one.",
+			"xCoordinate": 580,
+			"yCoordinate": 300,
+			"width": 400,
+			"height": 300,
+			"connectionsFrom": ["one"],
+			"connectionsTo": ["3"]
+		},
+		{
+			"id": "3",
+			"date": "Sun Oct 20 2019 16:51:23 GMT+0530 (India Standard Time)",
+			"title": "Getting started with the UI/UX",
+			"text": "I thought I would take a different route this time. Rather than starting from the backend, I think I will start from the frontend. I think I shall make the entire UI as I like and later create a backend which would supply data into the JSON file from which this post is currently being read by the UI. An alternate approach would be to create an API that returns JSON content. I might change my mind any time... lol. I am also considering this version of BuddyGo an open source one.",
+			"xCoordinate": 300,
+			"yCoordinate": 600,
+			"width": 600,
+			"height": 300,
+			"connectionsFrom": ["one", "2"],
+			"connectionsTo": []
+		}
+	]
+}

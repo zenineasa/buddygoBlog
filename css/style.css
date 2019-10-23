@@ -52,59 +52,12 @@ b{
 }
 
 #logo{
-	position: absolute;
-	right: 2em;
-	bottom: 2em;
+	position: fixed;
+	right: 32px;
+	bottom: 32px;
+	z-index: 999;
 }
-
-#sidebar{
-	position: absolute;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	width: 20em;
-	background: #ddd;
-	padding: 1em;
-	text-align: center;
-}
-#sidebar input[type=text]{
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-}
-#sidebar input[type=password]{
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-}
-#sidebar input[type=submit] {
-	width: 100%;
-	background-color: #111;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-#sidebar input[type=submit]:hover {
-	background-color: #999;
-}
-#sidebar p{
-	margin: 16px 0 0 0;
-}
-#sidebar li{
-	text-align: left;
-}
-
+/*
 #canvas {
 	background: #fefefe;
 	position: absolute;
@@ -112,4 +65,4 @@ b{
 	left: 0;
 	width: 400%;
 	height: 400%;
-}
+}*/

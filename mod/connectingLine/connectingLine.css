@@ -1,0 +1,13 @@
+.connectingLine{
+	position: absolute;
+	background: #666;
+	height: 2px;
+	z-index: 500;
+}
+.connectingLine span{
+	position: absolute;
+	right: 50%;
+	line-height: 0;
+	font-size: 20px;
+	color: #666;
+}

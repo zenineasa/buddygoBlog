@@ -4,16 +4,17 @@
   width: 500px;
   text-align: justify;
   border-radius: 0.5em;
+  z-index: 900;
 }
 
 .dragbox .header {
   text-align: center;
   padding: 10px;
   cursor: move;
-  z-index: 10;
   background-color: #111;
   color: #fff;
   border-radius: 0.5em 0.5em 0 0;
+  z-index: 950;
 }
 
 .dragbox .content {
