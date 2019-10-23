@@ -3,16 +3,15 @@ require([
     "mod/dragbox/dragbox",
     "mod/sidebar/sidebar",
     "dojo/json"
-    //"js/canvas"
 ], function(pageSettings, dragbox, sidebar, json){
     var params = window.location.search;
     params = params.split(/\?|=|&/);
     var index = params.findIndex(function(x){
-        return x==="page"
+        return x==="page";
     });
     var filename = params[index + 1];
     if(!filename){
-        filename = "home"
+        filename = "home";
     }
     var requireStr = "dojo/text!content/json/" + filename + ".json";
 
@@ -55,5 +54,4 @@ require([
         // Setting up the connecting lines
         dragbox.initializeConnections(content);
     });
-
 });
